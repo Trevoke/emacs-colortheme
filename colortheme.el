@@ -2,11 +2,12 @@
 
 (let (
       (class '((class color) (min-colors 89)))
-      (foobar-bg "#181520")
+					;      (foobar-bg "#181520")
+      (foobar-bg "#23211a")
       (foobar-fg "#F5EFDA")
       (foobar-gray-0 "#a6a39b")
-      (foobar-yellow-0 "#ffc72e")
-      (foobar-orange-0 "#fa7b00")
+      (foobar-yellow-0 "#f4c82a")
+      (foobar-orange-0 "#ffbf29")
       (foobar-red-0 "#f06")
       (foobar-green-0 "#00a32e")
       (foobar-green-1 "#40d600")
@@ -15,7 +16,7 @@
       (foobar-blue-2 "#6176ff")
       (foobar-blue-3 "#00345c")
       (foobar-blue-4 "#52b4ff")
-      (foobar-purple-0 "#c100d6")
+      (foobar-purple-0 "#f066ff")
       (foobar-purple-1 "#bf00ff")
       )
 
@@ -29,9 +30,9 @@
    `(trailing-whitespace ((,class ( :background ,foobar-red-0))))
 
    `(font-lock-comment-face       ((,class (:slant italic :foreground ,foobar-gray-0))))
-   `(font-lock-constant-face      ((,class (:foreground ,foobar-blue-1))))
+   `(font-lock-constant-face      ((,class (:foreground ,foobar-blue-4))))
    `(font-lock-function-name-face ((,class (:foreground ,foobar-yellow-0))))
-   `(font-lock-keyword-face       ((,class (:foreground ,foobar-blue-0))))
+   `(font-lock-keyword-face       ((,class (:foreground ,foobar-blue-1))))
    `(font-lock-string-face        ((,class ( :foreground ,foobar-green-0))))
    `(font-lock-type-face          ((,class (:foreground ,foobar-orange-0))))
    `(font-lock-variable-name-face ((,class (:foreground ,foobar-purple-0))))
