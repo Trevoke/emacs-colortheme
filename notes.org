@@ -1,0 +1,4 @@
+* Make strings a lighter green
+* attr_accessible :uuid # not different enough
+* "class" blue not great next to the constant name
+* Org header (or TODO) should be a more different yellow
