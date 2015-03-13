@@ -2,3 +2,9 @@
 * attr_accessible :uuid # not different enough
 * "class" blue not great next to the constant name
 * Org header (or TODO) should be a more different yellow
+* Colors from Rick:
+
+| Black   | Red     | Green   | Yellow  | Blue    | Magenta | Cyan    | White   |
+|---------+---------+---------+---------+---------+---------+---------+---------|
+| #000000 | #ec555d | #71c56e | #fdb536 | #538DC0 | #CC99CC | #22C3C0 | #FFFFFF |
+| #4c4b4c | #F2777A | #99CC99 | #FFCC66 | #6699CC | #CC99CC | #66CCCC | #FFFFFF |
